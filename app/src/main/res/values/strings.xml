@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">DnD Resource App</string>
+    <string name="world_menu">World Menu</string>
+    <string name="characters">Characters</string>
+    <string name="spells">Spells</string>
+    <string name="equipment">Equipment</string>
+    <string name="notes">Notes</string>
+    <string name="dm">Dungeon Master</string>
+    <string name="player">Player</string>
+</resources>
