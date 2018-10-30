@@ -7,4 +7,9 @@
     <string name="notes">Notes</string>
     <string name="dm">Dungeon Master</string>
     <string name="player">Player</string>
+
+    <string name="dmDesc">Use the Dungeon Master tools</string>
+    <string name="playerDesc">Use Player tools</string>
+
+    <string name="main_menu_prompt">What is your role in the Session?</string>
 </resources>

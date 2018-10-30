@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -13,7 +13,37 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical" />
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="serif"
+                android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+                android:textSize="30sp"
+                tools:text="@string/main_menu_prompt" />
+
+            <Button
+                android:id="@+id/btnDm"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:background="@drawable/dm"
+                android:fontFamily="serif"
+                android:text="@string/dm"
+                android:textColor="@android:color/white"
+                android:textSize="36sp" />
+
+            <Button
+                android:id="@+id/btnPlayer"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:background="@drawable/party"
+                android:fontFamily="serif"
+                android:text="@string/player"
+                android:textColor="@android:color/white"
+                android:textSize="36sp" />
+        </LinearLayout>
     </ScrollView>
 
-</android.support.constraint.ConstraintLayout>
+</android.support.design.widget.CoordinatorLayout>
